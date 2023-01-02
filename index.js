@@ -33,7 +33,7 @@ app.get('*', (_, res) => {
 app.use(NotFoundMiddleware);
 app.use(ErrorHandlerMiddleware);
 
-const PORT = process.env.PORT || 5100;
+const PORT = process.env.PORT || 5500;
 
 const start = () => {
     try {
